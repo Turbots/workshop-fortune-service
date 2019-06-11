@@ -1,0 +1,7 @@
+---
+applications:
+  - name: fortune-service
+    instances: 1
+    memory: 1G
+    random-route: true
+    path: target/workshop-fortune-service-0.0.1-SNAPSHOT.jar
